@@ -31,7 +31,7 @@ public class test {
 		
 		//listing symptoms
 		List<Symtome> listSymptome = symptomeImpl.list_symptome();
-		//parcours de chaque symptome de la liste et on affiche
+		//scroll through each symptom in the list and display
 		for(Symtome s: listSymptome) {
 			System.out.println("le nom est: " +s.getName()+ " et la description est: " +s.getDescription());
 		}

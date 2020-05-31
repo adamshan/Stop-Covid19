@@ -2,6 +2,12 @@ package com.metier.entities;
 
 public class Symtome {
 	
+	public Symtome(String name, String description) {
+		super();
+		this.name = name;
+		this.description = description;
+	}
+
 	//attributes of class symptoms
 	private int id;
 	private String name;
